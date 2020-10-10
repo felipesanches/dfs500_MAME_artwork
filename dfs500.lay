@@ -27,33 +27,39 @@ license:CC0
 		</rect>
 	</element>
 
+	<element name="rect" defstate="0">
+		<rect state="0">
+			<color red="0.1" green="0.05" blue="0.05" />
+		</rect>
+	</element>
+
 	<element name="controlpanel"><image file="cpanel.png" /></element>
 
 	<!-- Snap Shot -->
 
 	<!-- Lighting -->
-	<element name="lighting_spot"  defstate="0"><image file="lighting_spot.png" state="0"/></element>
-	<element name="lighting_line"  defstate="0"><image file="lighting_line.png" state="0"/></element>
-	<element name="lighting_plane" defstate="0"><image file="lighting_plane.png" state="0"/></element>
-	<element name="lighting_width_wide"     defstate="0"><image file="lighting_width_wide.png" state="0"/></element>
-	<element name="lighting_width_medium"   defstate="0"><image file="lighting_width_medium.png" state="0"/></element>
-	<element name="lighting_width_narrow"   defstate="0"><image file="lighting_width_narrow.png" state="0"/></element>
-	<element name="lighting_intensity_high"    defstate="0"><image file="lighting_intensity_high.png" state="0"/></element>
-	<element name="lighting_intensity_medium"  defstate="0"><image file="lighting_intensity_medium.png" state="0"/></element>
-	<element name="lighting_intensity_low"     defstate="0"><image file="lighting_intensity_low.png" state="0"/></element>
+	<element name="lighting_spot"  defstate="1"><image file="lighting_spot.png" state="1"/></element>
+	<element name="lighting_line"  defstate="1"><image file="lighting_line.png" state="1"/></element>
+	<element name="lighting_plane" defstate="1"><image file="lighting_plane.png" state="1"/></element>
+	<element name="lighting_width_wide"     defstate="1"><image file="lighting_width_wide.png" state="1"/></element>
+	<element name="lighting_width_medium"   defstate="1"><image file="lighting_width_medium.png" state="1"/></element>
+	<element name="lighting_width_narrow"   defstate="1"><image file="lighting_width_narrow.png" state="1"/></element>
+	<element name="lighting_intensity_high"    defstate="1"><image file="lighting_intensity_high.png" state="1"/></element>
+	<element name="lighting_intensity_medium"  defstate="1"><image file="lighting_intensity_medium.png" state="1"/></element>
+	<element name="lighting_intensity_low"     defstate="1"><image file="lighting_intensity_low.png" state="1"/></element>
 
 	<!-- Trail/Shadow -->
-	<element name="trail_drop_type_hard"        defstate="0"><image file="trail_drop_type_hard.png" state="0"/></element>
-	<element name="trail_drop_type_soft"        defstate="0"><image file="trail_drop_type_soft.png" state="0"/></element>
-	<element name="trail_drop_type_hard_star"   defstate="0"><image file="trail_drop_type_hard_star.png" state="0"/></element>
-	<element name="trail_drop_type_soft_star"   defstate="0"><image file="trail_drop_type_soft_star.png" state="0"/></element>
-	<element name="trail_drop_fill_self"      defstate="0"><image file="trail_drop_fill_self.png" state="0"/></element>
-	<element name="trail_drop_fill_bord_mat"  defstate="0"><image file="trail_drop_fill_bord_mat.png" state="0"/></element>
-	<element name="trail_drop_fill_shad_mat"  defstate="0"><image file="trail_drop_fill_shad_mat.png" state="0"/></element>
-	<element name="trail_drop_fill_rndm_mat"  defstate="0"><image file="trail_drop_fill_rndm_mat.png" state="0"/></element>
-	<element name="trail_frames_duration"  defstate="0"><image file="trail_frames_duration.png" state="0"/></element>
-	<element name="trail_frames_wid_pos"   defstate="0"><image file="trail_frames_wid_pos.png" state="0"/></element>
-	<element name="trail_frames_density"   defstate="0"><image file="trail_frames_density.png" state="0"/></element>
+	<element name="trail_drop_type_hard"        defstate="1"><image file="trail_drop_type_hard.png" state="1"/></element>
+	<element name="trail_drop_type_soft"        defstate="1"><image file="trail_drop_type_soft.png" state="1"/></element>
+	<element name="trail_drop_type_hard_star"   defstate="1"><image file="trail_drop_type_hard_star.png" state="1"/></element>
+	<element name="trail_drop_type_soft_star"   defstate="1"><image file="trail_drop_type_soft_star.png" state="1"/></element>
+	<element name="trail_drop_fill_self"      defstate="1"><image file="trail_drop_fill_self.png" state="1"/></element>
+	<element name="trail_drop_fill_bord_mat"  defstate="1"><image file="trail_drop_fill_bord_mat.png" state="1"/></element>
+	<element name="trail_drop_fill_shad_mat"  defstate="1"><image file="trail_drop_fill_shad_mat.png" state="1"/></element>
+	<element name="trail_drop_fill_rndm_mat"  defstate="1"><image file="trail_drop_fill_rndm_mat.png" state="1"/></element>
+	<element name="trail_frames_duration"  defstate="1"><image file="trail_frames_duration.png" state="1"/></element>
+	<element name="trail_frames_wid_pos"   defstate="1"><image file="trail_frames_wid_pos.png" state="1"/></element>
+	<element name="trail_frames_density"   defstate="1"><image file="trail_frames_density.png" state="1"/></element>
 
 	<!-- Edge -->
 
@@ -62,47 +68,57 @@ license:CC0
 	<!-- Location -->
 
 	<!-- Title -->
-	<element name="title_frgd_bus"   defstate="0"><image file="title_frgd_bus.png" state="0"/></element>
-	<element name="title_bord_mat"   defstate="0"><image file="title_bord_mat.png" state="0"/></element>
-	<element name="title_shad_mat"   defstate="0"><image file="title_shad_mat.png" state="0"/></element>
+	<element name="title_frgd_bus"   defstate="1"><image file="title_frgd_bus.png" state="1"/></element>
+	<element name="title_bord_mat"   defstate="1"><image file="title_bord_mat.png" state="1"/></element>
+	<element name="title_shad_mat"   defstate="1"><image file="title_shad_mat.png" state="1"/></element>
 
 	<!-- Mattes/Bkgd -->
-	<element name="mattes_col_bkgd"   defstate="0"><image file="mattes_col_bkgd.png" state="0"/></element>
-	<element name="mattes_bord_mat"   defstate="0"><image file="mattes_bord_mat.png" state="0"/></element>
-	<element name="mattes_shad_mat"   defstate="0"><image file="mattes_shad_mat.png" state="0"/></element>
-	<element name="mattes_dsk_mat"    defstate="0"><image file="mattes_dsk_mat.png"  state="0"/></element>
-	<element name="mattes_dsk_bord"   defstate="0"><image file="mattes_dsk_bord.png" state="0"/></element>
+	<element name="mattes_col_bkgd"   defstate="1"><image file="mattes_col_bkgd.png" state="1"/></element>
+	<element name="mattes_bord_mat"   defstate="1"><image file="mattes_bord_mat.png" state="1"/></element>
+	<element name="mattes_shad_mat"   defstate="1"><image file="mattes_shad_mat.png" state="1"/></element>
+	<element name="mattes_dsk_mat"    defstate="1"><image file="mattes_dsk_mat.png"  state="1"/></element>
+	<element name="mattes_dsk_bord"   defstate="1"><image file="mattes_dsk_bord.png" state="1"/></element>
 
 	<!-- Downstream Keyer -->
-	<element name="wide_bord" defstate="0"><image file="wide_bord.png" state="0"/></element>
-	<element name="narw_bord" defstate="0"><image file="narw_bord.png" state="0"/></element>
-	<element name="drop_bord" defstate="0"><image file="drop_bord.png" state="0"/></element>
-	<element name="double"    defstate="0"><image file="double.png"    state="0"/></element>
-	<element name="top_left"  defstate="0"><image file="top_left.png"  state="0"/></element>
-	<element name="top_right" defstate="0"><image file="top_right.png" state="0"/></element>
-	<element name="btm_right" defstate="0"><image file="btm_right.png" state="0"/></element>
-	<element name="btm_left"  defstate="0"><image file="btm_left.png"  state="0"/></element>
-	<element name="dsk_fill_video" defstate="0"><image file="dsk_fill_video.png"  state="0"/></element>
-	<element name="dsk_fill_mat"   defstate="0"><image file="dsk_fill_mat.png"  state="0"/></element>
-	<element name="dsk_fill_none"  defstate="0"><image file="dsk_fill_none.png"  state="0"/></element>
+	<element name="wide_bord" defstate="1"><image file="wide_bord.png" state="1"/></element>
+	<element name="narw_bord" defstate="1"><image file="narw_bord.png" state="1"/></element>
+	<element name="drop_bord" defstate="1"><image file="drop_bord.png" state="1"/></element>
+	<element name="double"    defstate="1"><image file="double.png"    state="1"/></element>
+	<element name="top_left"  defstate="1"><image file="top_left.png"  state="1"/></element>
+	<element name="top_right" defstate="1"><image file="top_right.png" state="1"/></element>
+	<element name="btm_right" defstate="1"><image file="btm_right.png" state="1"/></element>
+	<element name="btm_left"  defstate="1"><image file="btm_left.png"  state="1"/></element>
+	<element name="dsk_fill_video" defstate="1"><image file="dsk_fill_video.png"  state="1"/></element>
+	<element name="dsk_fill_mat"   defstate="1"><image file="dsk_fill_mat.png"  state="1"/></element>
+	<element name="dsk_fill_none"  defstate="1"><image file="dsk_fill_none.png"  state="1"/></element>
 
 	<!-- Effect Control -->
-	<element name="effect_ctrl_modify"  defstate="0"><image file="effect_ctrl_modify.png"  state="0"/></element>
-	<element name="effect_ctrl_linear"  defstate="0"><image file="effect_ctrl_linear.png"  state="0"/></element>
-	<element name="effect_ctrl_nonlin"  defstate="0"><image file="effect_ctrl_nonlin.png"  state="0"/></element>
-	<element name="effect_ctrl_mask"    defstate="0"><image file="effect_ctrl_mask.png"  state="0"/></element>
+	<element name="effect_ctrl_modify"  defstate="1"><image file="effect_ctrl_modify.png"  state="1"/></element>
+	<element name="effect_ctrl_linear"  defstate="1"><image file="effect_ctrl_linear.png"  state="1"/></element>
+	<element name="effect_ctrl_nonlin"  defstate="1"><image file="effect_ctrl_nonlin.png"  state="1"/></element>
+	<element name="effect_ctrl_mask"    defstate="1"><image file="effect_ctrl_mask.png"  state="1"/></element>
 
 	<!-- Background -->
 
 	<!-- Foreground -->
 
 	<!-- Int Video -->
+	<element name="int_video_col_bkgd"  defstate="1"><image file="int_video_col_bkgd.png"  state="1"/></element>
+	<element name="int_video_col_bar"   defstate="1"><image file="int_video_col_bar.png"  state="1"/></element>
+	<element name="int_video_grid"      defstate="1"><image file="int_video_grid.png"  state="1"/></element>
 
 	<!-- Effect Transition -->
+	<element name="trans_rate_effect"    defstate="1"><image file="trans_rate_effect.png"  state="1"/></element>
+	<element name="trans_rate_dsk"       defstate="1"><image file="trans_rate_dsk.png"  state="1"/></element>
+	<element name="trans_rate_norm_rev"  defstate="1"><image file="trans_rate_norm_rev.png"  state="1"/></element>
 
 	<!-- Pattern Number -->
 
 	<!-- Mode -->
+	<element name="mode_pattern"   defstate="1"><image file="mode_pattern.png"  state="1"/></element>
+	<element name="mode_trans"     defstate="1"><image file="mode_trans.png"  state="1"/></element>
+	<element name="mode_user_pgm"  defstate="1"><image file="mode_user_pgm.png"  state="1"/></element>
+	<element name="mode_snap_shot" defstate="1"><image file="mode_snap_shot.png"  state="1"/></element>
 
 	<!-- Pattern / Key Pad -->
 
@@ -213,16 +229,22 @@ license:CC0
 		<!-- Foreground -->
 
 		<!-- Int Video -->
+		<element name="int_video_col_bkgd"  ref="int_video_col_bkgd" ><bounds x="321" y="578" width="52" height="12" /></element>
+		<element name="int_video_col_bar"   ref="int_video_col_bar"  ><bounds x="322" y="610" width="47" height="12" /></element>
+		<element name="int_video_grid"      ref="int_video_grid"     ><bounds x="331" y="643" width="28" height="12" /></element>
 
 		<!-- Effect Transition -->
 		<element name="trans_rate100"  ref="digit"><bounds x="428" y="571"  width="26" height="38" /></element>
 		<element name="trans_rate10"   ref="digit"><bounds x="454" y="571"  width="26" height="38" /></element>
 		<element name="trans_rate1"    ref="digit"><bounds x="480" y="571"  width="26" height="38" /></element>
+		<element name="trans_rate_effect"   ref="trans_rate_effect"  ><bounds x="419" y="626" width="40" height="12" /></element>
+		<element name="trans_rate_dsk"      ref="trans_rate_dsk"     ><bounds x="482" y="625" width="23" height="12" /></element>
+		<element name="trans_rate_norm_rev" ref="trans_rate_norm_rev"><bounds x="531" y="609" width="56" height="12" /></element>
 		<element name="transition_effect"  ref="led"><bounds x="433" y="668"  width="9" height="9" /></element>
 		<element name="transition_dsk"     ref="led"><bounds x="490" y="668"  width="9" height="9" /></element>
 		<element name="transition_reverse" ref="led"><bounds x="555" y="668"  width="9" height="9" /></element>
-		<element name="transition_field"   ref="led"><bounds x="433" y="740"  width="9" height="9" /></element>
-		<element name="transition_frame"   ref="led"><bounds x="490" y="740"  width="9" height="9" /></element>
+		<element name="freeze_field"   ref="led"><bounds x="433" y="740"  width="9" height="9" /></element>
+		<element name="freeze_frame"   ref="led"><bounds x="490" y="740"  width="9" height="9" /></element>
 		<element name="transition_0"   ref="squared_led"><bounds x="623" y="598.197"  width="14" height="4.5" /></element>
 		<element name="transition_1"   ref="squared_led"><bounds x="623" y="604.966"  width="14" height="4.5" /></element>
 		<element name="transition_2"   ref="squared_led"><bounds x="623" y="611.735"  width="14" height="4.5" /></element>
@@ -245,6 +267,7 @@ license:CC0
 		<element name="transition_19"  ref="squared_led"><bounds x="623" y="726.803"  width="14" height="4.5" /></element>
 
 		<!-- Pattern Number -->
+		<element name="pattern_number_background" ref="rect"><bounds x="871" y="483"  width="108" height="41" /></element>
 		<element name="pattern_number1000" ref="digit"><bounds x="873" y="485"  width="26" height="37" /></element>
 		<element name="pattern_number100"  ref="digit"><bounds x="899" y="485"  width="26" height="37" /></element>
 		<element name="pattern_number10"   ref="digit"><bounds x="925" y="485"  width="26" height="37" /></element>
@@ -252,6 +275,10 @@ license:CC0
 
 		<!-- Mode -->
 		<element name="direct_pattern"   ref="led"><bounds x="822" y="574"  width="9" height="9" /></element>
+		<element name="mode_pattern"   ref="mode_pattern"  ><bounds x="801" y="621" width="47" height="12" /></element>
+		<element name="mode_trans"     ref="mode_trans"    ><bounds x="806" y="654" width="38" height="12" /></element>
+		<element name="mode_user_pgm"  ref="mode_user_pgm" ><bounds x="799" y="687" width="54" height="12" /></element>
+		<element name="mode_snap_shot" ref="mode_snap_shot"><bounds x="805" y="720" width="44" height="12" /></element>
 
 		<!-- Pattern / Key Pad -->
 
