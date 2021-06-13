@@ -127,124 +127,124 @@ license:CC0
 		<element name="cp" ref="controlpanel"><bounds x="0" y="0" width="1120" height="927" /></element>
 		<screen index="0"><bounds x="1120" y="207" width="768" height="512" /></screen>
 
-		<element name="editor_enable" ref="led"><bounds x="117" y="182"  width="9" height="9" /></element>
+		<element name="LD1" ref="led"><!-- editor_enable --><bounds x="117" y="182"  width="9" height="9" /></element>
 
 		<!-- Snap Shot -->
-		<element name="snapshot10" ref="digit"><bounds x="154" y="84"  width="26" height="38" /></element>
-		<element name="snapshot1"  ref="digit"><bounds x="180" y="84"  width="26" height="38" /></element>
-		<element name="learn"      ref="led"><bounds x="179" y="139"  width="9" height="9" /></element>
-		<element name="recall"     ref="led"><bounds x="185" y="182"  width="9" height="9" /></element>
-		<element name="hold_input" ref="led"><bounds x="190" y="221"  width="9" height="9" /></element>
+		<element name="snapshot_1" ref="digit"><bounds x="154" y="84"  width="26" height="38" /></element>
+		<element name="snapshot_0"  ref="digit"><bounds x="180" y="84"  width="26" height="38" /></element>
+		<element name="LD4" ref="led"><!-- learn --><bounds x="179" y="139"  width="9" height="9" /></element>
+		<element name="LD3" ref="led"><!-- recall --><bounds x="185" y="182"  width="9" height="9" /></element>
+		<element name="LD2" ref="led"><!-- hold_input --><bounds x="190" y="221"  width="9" height="9" /></element>
 
 		<!-- Lighting -->
-		<element name="lighting_spot"  ref="lighting_spot" ><bounds x="243" y="86" width="32" height="12" /></element>
-		<element name="lighting_line"  ref="lighting_line" ><bounds x="248" y="114" width="27" height="12" /></element>
-		<element name="lighting_plane" ref="lighting_plane"><bounds x="246" y="141" width="36" height="12" /></element>
-		<element name="lighting_width_wide"   ref="lighting_width_wide"  ><bounds x="313" y="86" width="32" height="12" /></element>
-		<element name="lighting_width_medium" ref="lighting_width_medium"><bounds x="309" y="113" width="44" height="12" /></element>
-		<element name="lighting_width_narrow" ref="lighting_width_narrow"><bounds x="309" y="140" width="49" height="12" /></element>
-		<element name="lighting_intensity_high"   ref="lighting_intensity_high"  ><bounds x="384" y="86" width="30" height="12" /></element>
-		<element name="lighting_intensity_medium" ref="lighting_intensity_medium"><bounds x="378" y="113" width="44" height="12" /></element>
-		<element name="lighting_intensity_low"    ref="lighting_intensity_low"   ><bounds x="386" y="140" width="30" height="12" /></element>
-		<element name="lighting" ref="led"><bounds x="333" y="220"  width="9" height="9" /></element>
+		<element name="LD8" ref="lighting_spot"><bounds x="243" y="86" width="32" height="12" /></element>
+		<element name="LD7" ref="lighting_line"><bounds x="248" y="114" width="27" height="12" /></element>
+		<element name="LD6" ref="lighting_plane"><bounds x="246" y="141" width="36" height="12" /></element>
+		<element name="LD11" ref="lighting_width_wide"><bounds x="313" y="86" width="32" height="12" /></element>
+		<element name="LD10" ref="lighting_width_medium"><bounds x="309" y="113" width="44" height="12" /></element>
+		<element name="LD9" ref="lighting_width_narrow"><bounds x="309" y="140" width="49" height="12" /></element>
+		<element name="LD14" ref="lighting_intensity_high"  ><bounds x="384" y="86" width="30" height="12" /></element>
+		<element name="LD13" ref="lighting_intensity_medium"><bounds x="378" y="113" width="44" height="12" /></element>
+		<element name="LD12" ref="lighting_intensity_low"   ><bounds x="386" y="140" width="30" height="12" /></element>
+		<element name="LD5" ref="led"><!-- lighting --><bounds x="333" y="220"  width="9" height="9" /></element>
 
 		<!-- Trail/Shadow -->
-		<element name="trail_shadow_frames10"   ref="digit"><bounds x="594" y="84"  width="26" height="38" /></element>
-		<element name="trail_shadow_frames1"    ref="digit"><bounds x="620" y="84"  width="26" height="38" /></element>
-		<element name="trail"       ref="led"><bounds x="478" y="220"  width="9" height="9" /></element>
-		<element name="drop_border" ref="led"><bounds x="544" y="220"  width="9" height="9" /></element>
-		<element name="shadow"      ref="led"><bounds x="614" y="220"  width="9" height="9" /></element>
-		<element name="trail_drop_type_hard"       ref="trail_drop_type_hard"     ><bounds x="462" y="85" width="36" height="12" /></element>
-		<element name="trail_drop_type_soft"       ref="trail_drop_type_soft"     ><bounds x="462" y="104" width="36" height="12" /></element>
-		<element name="trail_drop_type_hard_star"  ref="trail_drop_type_hard_star"><bounds x="452" y="122" width="59" height="12" /></element>
-		<element name="trail_drop_type_soft_star"  ref="trail_drop_type_soft_star"><bounds x="453" y="140" width="59" height="12" /></element>
-		<element name="trail_drop_fill_self"     ref="trail_drop_fill_self"    ><bounds x="535" y="85" width="31" height="12" /></element>
-		<element name="trail_drop_fill_bord_mat" ref="trail_drop_fill_bord_mat"><bounds x="519" y="104" width="59" height="12" /></element>
-		<element name="trail_drop_fill_shad_mat" ref="trail_drop_fill_shad_mat"><bounds x="519" y="122" width="59" height="12" /></element>
-		<element name="trail_drop_fill_rndm_mat" ref="trail_drop_fill_rndm_mat"><bounds x="519" y="140" width="59" height="12" /></element>
-		<element name="trail_frames_duration" ref="trail_frames_duration"><bounds x="657" y="100" width="54" height="12" /></element>
-		<element name="trail_frames_wid_pos" ref="trail_frames_wid_pos"><bounds x="657" y="119" width="51" height="12" /></element>
-		<element name="trail_frames_density" ref="trail_frames_density"><bounds x="658" y="139" width="47" height="12" /></element>
+		<element name="trail_shadow_frames_1" ref="digit"><bounds x="594" y="84"  width="26" height="38" /></element>
+		<element name="trail_shadow_frames_0" ref="digit"><bounds x="620" y="84"  width="26" height="38" /></element>
+		<element name="LD15" ref="led"><!-- trail --><bounds x="478" y="220"  width="9" height="9" /></element>
+		<element name="LD20" ref="led"><!-- drop_border --><bounds x="544" y="220"  width="9" height="9" /></element>
+		<element name="LD25" ref="led"><!-- shadow --><bounds x="614" y="220"  width="9" height="9" /></element>
+		<element name="LD19" ref="trail_drop_type_hard"><bounds x="462" y="85" width="36" height="12" /></element>
+		<element name="LD18" ref="trail_drop_type_soft"><bounds x="462" y="104" width="36" height="12" /></element>
+		<element name="LD17" ref="trail_drop_type_hard_star"><bounds x="452" y="122" width="59" height="12" /></element>
+		<element name="LD16" ref="trail_drop_type_soft_star"><bounds x="453" y="140" width="59" height="12" /></element>
+		<element name="LD24" ref="trail_drop_fill_self"><bounds x="535" y="85" width="31" height="12" /></element>
+		<element name="LD23" ref="trail_drop_fill_bord_mat"><bounds x="519" y="104" width="59" height="12" /></element>
+		<element name="LD22" ref="trail_drop_fill_shad_mat"><bounds x="519" y="122" width="59" height="12" /></element>
+		<element name="LD21" ref="trail_drop_fill_rndm_mat"><bounds x="519" y="140" width="59" height="12" /></element>
+		<element name="LD28" ref="trail_frames_duration"><bounds x="657" y="100" width="54" height="12" /></element>
+		<element name="LD27" ref="trail_frames_wid_pos"><bounds x="657" y="119" width="51" height="12" /></element>
+		<element name="LD26" ref="trail_frames_density"><bounds x="658" y="139" width="47" height="12" /></element>
 
 		<!-- Edge -->
-		<element name="edge_border" ref="led"><bounds x="763" y="103"  width="9" height="9" /></element>
-		<element name="edge_soft"   ref="led"><bounds x="758" y="144"  width="9" height="9" /></element>
+		<element name="LD29" ref="led"><!-- edge_border --><bounds x="763" y="103"  width="9" height="9" /></element>
+		<element name="LD30" ref="led"><!-- edge_soft --><bounds x="758" y="144"  width="9" height="9" /></element>
 
 		<!-- User Program -->
-		<element name="status"     ref="digit"><bounds x="841" y="84"  width="26" height="38" /></element>
-		<element name="edit"       ref="digit"><bounds x="833" y="148" width="26" height="38" /></element>
-		<element name="edit_led"   ref="led"><bounds x="837" y="220"  width="9" height="9" /></element>
+		<element name="status" ref="digit"><bounds x="841" y="84"  width="26" height="38" /></element>
+		<element name="edit" ref="digit"><bounds x="833" y="148" width="26" height="38" /></element>
+		<element name="LD31" ref="led"><!-- edit_led --><bounds x="837" y="220"  width="9" height="9" /></element>
 
 		<!-- Location -->
-		<element name="location"   ref="led"><bounds x="914" y="221"  width="9" height="9" /></element>
+		<element name="LD32" ref="led"><!-- location --><bounds x="914" y="221"  width="9" height="9" /></element>
 
 		<!-- Title -->
-		<element name="mask_normal" ref="led"><bounds x="100" y="384"  width="9" height="9" /></element>
-		<element name="mask_invert" ref="led"><bounds x="143" y="384"  width="9" height="9" /></element>
-		<element name="key_inv"     ref="led"><bounds x="98"  y="440"  width="9" height="9" /></element>
-		<element name="ext_key"     ref="led"><bounds x="140" y="440"  width="9" height="9" /></element>
-		<element name="title"       ref="led"><bounds x="117" y="495"  width="9" height="9" /></element>
-		<element name="title_frgd_bus" ref="title_frgd_bus"><bounds x="181" y="342" width="52" height="12" /></element>
-		<element name="title_bord_mat" ref="title_bord_mat"><bounds x="180" y="361" width="52" height="12" /></element>
-		<element name="title_shad_mat" ref="title_shad_mat"><bounds x="180" y="381" width="52" height="12" /></element>
+		<element name="LD34" ref="led"><!-- mask_normal --><bounds x="100" y="384"  width="9" height="9" /></element>
+		<element name="LD36" ref="led"><!-- mask_invert --><bounds x="143" y="384"  width="9" height="9" /></element>
+		<element name="LD33" ref="led"><!-- key_inv --><bounds x="98"  y="440"  width="9" height="9" /></element>
+		<element name="LD35" ref="led"><!-- ext_key --><bounds x="140" y="440"  width="9" height="9" /></element>
+		<element name="LD37" ref="led"><!-- title --><bounds x="117" y="495"  width="9" height="9" /></element>
+		<element name="LD40" ref="title_frgd_bus"><bounds x="181" y="342" width="52" height="12" /></element>
+		<element name="LD39" ref="title_bord_mat"><bounds x="180" y="361" width="52" height="12" /></element>
+		<element name="LD38" ref="title_shad_mat"><bounds x="180" y="381" width="52" height="12" /></element>
 
 		<!-- Mattes/Bkgd -->
-		<element name="matte_copy" ref="led"><bounds x="275" y="495"  width="9" height="9" /></element>
-		<element name="mattes_col_bkgd" ref="mattes_col_bkgd"><bounds x="258" y="342" width="53" height="12" /></element>
-		<element name="mattes_bord_mat" ref="mattes_bord_mat"><bounds x="258" y="358" width="53" height="12" /></element>
-		<element name="mattes_shad_mat" ref="mattes_shad_mat"><bounds x="257" y="375" width="53" height="12" /></element>
-		<element name="mattes_dsk_mat"  ref="mattes_dsk_mat"><bounds x="260" y="390" width="46" height="12" /></element>
-		<element name="mattes_dsk_bord" ref="mattes_dsk_bord"><bounds x="257" y="407" width="52" height="12" /></element>
+		<element name="LD63" ref="led"><!-- matte_copy --><bounds x="275" y="495"  width="9" height="9" /></element>
+		<element name="LD62" ref="mattes_col_bkgd"><bounds x="258" y="342" width="53" height="12" /></element>
+		<element name="LD61" ref="mattes_bord_mat"><bounds x="258" y="358" width="53" height="12" /></element>
+		<element name="LD60" ref="mattes_shad_mat"><bounds x="257" y="375" width="53" height="12" /></element>
+		<element name="LD59" ref="mattes_dsk_mat"><bounds x="260" y="390" width="46" height="12" /></element>
+		<element name="LD58" ref="mattes_dsk_bord"><bounds x="257" y="407" width="52" height="12" /></element>
 
 		<!-- Downstream Keyer -->
-		<element name="wide_bord" ref="wide_bord"><bounds x="393" y="344" width="50" height="12" /></element>
-		<element name="narw_bord" ref="narw_bord"><bounds x="392" y="363" width="53" height="12" /></element>
-		<element name="drop_bord" ref="drop_bord"><bounds x="392" y="383" width="52" height="12" /></element>
-		<element name="double"    ref="double"   ><bounds x="396" y="403" width="43" height="12" /></element>
-		<element name="top_left"  ref="top_left" ><bounds x="452" y="344" width="50" height="12" /></element>
-		<element name="top_right" ref="top_right"><bounds x="450" y="364" width="54" height="12" /></element>
-		<element name="btm_left"  ref="btm_left" ><bounds x="448" y="383" width="56" height="12" /></element>
-		<element name="btm_right" ref="btm_right"><bounds x="450" y="403" width="52" height="12" /></element>
-		<element name="border" ref="led"><bounds x="442" y="495"  width="9" height="9" /></element>
-		<element name="dsk_mask_normal" ref="led"><bounds x="534" y="385"  width="9" height="9" /></element>
-		<element name="dsk_mask_invert" ref="led"><bounds x="576" y="385"  width="9" height="9" /></element>
-		<element name="dsk_key_inv"     ref="led"><bounds x="534" y="442"  width="9" height="9" /></element>
-		<element name="dsk_ext_key"     ref="led"><bounds x="576" y="442"  width="9" height="9" /></element>
-		<element name="dsk_fill_video" ref="dsk_fill_video"><bounds x="608" y="345" width="52" height="12" /></element>
-		<element name="dsk_fill_mat"   ref="dsk_fill_mat"  ><bounds x="611" y="364" width="46" height="12" /></element>
-		<element name="dsk_fill_none"  ref="dsk_fill_none" ><bounds x="619" y="383" width="32" height="12" /></element>
+		<element name="LD53" ref="wide_bord"><bounds x="393" y="344" width="50" height="12" /></element>
+		<element name="LD52" ref="narw_bord"><bounds x="392" y="363" width="53" height="12" /></element>
+		<element name="LD51" ref="drop_bord"><bounds x="392" y="383" width="52" height="12" /></element>
+		<element name="LD50" ref="double"   ><bounds x="396" y="403" width="43" height="12" /></element>
+		<element name="LD57" ref="top_left" ><bounds x="452" y="344" width="50" height="12" /></element>
+		<element name="LD56" ref="top_right"><bounds x="450" y="364" width="54" height="12" /></element>
+		<element name="LD55" ref="btm_left" ><bounds x="448" y="383" width="56" height="12" /></element>
+		<element name="LD54" ref="btm_right"><bounds x="450" y="403" width="52" height="12" /></element>
+		<element name="LD49" ref="led"><!-- border --><bounds x="442" y="495"  width="9" height="9" /></element>
+		<element name="LD42" ref="led"><!-- dsk_mask_normal --><bounds x="534" y="385"  width="9" height="9" /></element>
+		<element name="LD44" ref="led"><!-- dsk_mask_invert --><bounds x="576" y="385"  width="9" height="9" /></element>
+		<element name="LD41" ref="led"><!-- dsk_key_inv --><bounds x="534" y="442"  width="9" height="9" /></element>
+		<element name="LD43" ref="led"><!-- dsk_ext_key --><bounds x="576" y="442"  width="9" height="9" /></element>
+		<element name="LD48" ref="dsk_fill_video"><bounds x="608" y="345" width="52" height="12" /></element>
+		<element name="LD47" ref="dsk_fill_mat"  ><bounds x="611" y="364" width="46" height="12" /></element>
+		<element name="LD46" ref="dsk_fill_none" ><bounds x="619" y="383" width="32" height="12" /></element>
 
 		<!-- Effect Control -->
-		<element name="effect_ctrl_title"  ref="led"><bounds x="693" y="442"  width="9" height="9" /></element>
-		<element name="effect_ctrl_dsk"    ref="led"><bounds x="736" y="442"  width="9" height="9" /></element>
-		<element name="effect_ctrl_shift"  ref="led"><bounds x="820" y="497"  width="9" height="9" /></element>
-		<element name="pattern_number_set" ref="led"><bounds x="1016" y="497"  width="9" height="9" /></element>
-		<element name="effect_ctrl_modify"  ref="effect_ctrl_modify" ><bounds x="695" y="346" width="42" height="12" /></element>
-		<element name="effect_ctrl_linear"  ref="effect_ctrl_linear" ><bounds x="696" y="366" width="40" height="12" /></element>
-		<element name="effect_ctrl_nonlin"  ref="effect_ctrl_nonlin" ><bounds x="693" y="385" width="46" height="12" /></element>
-		<element name="effect_ctrl_mask"    ref="effect_ctrl_mask"   ><bounds x="700" y="405" width="32" height="12" /></element>
+		<element name="LD65" ref="led"><!-- effect_ctrl_title --><bounds x="693" y="442"  width="9" height="9" /></element>
+		<element name="LD66" ref="led"><!-- effect_ctrl_dsk --><bounds x="736" y="442"  width="9" height="9" /></element>
+		<element name="LD234" ref="led"><!-- effect_ctrl_shift --><bounds x="820" y="497"  width="9" height="9" /></element>
+		<element name="LD64" ref="led"><!-- pattern_number_set --><bounds x="1016" y="497"  width="9" height="9" /></element>
+		<element name="LD69" ref="effect_ctrl_modify"><bounds x="695" y="346" width="42" height="12" /></element>
+		<element name="LD68" ref="effect_ctrl_linear"><bounds x="696" y="366" width="40" height="12" /></element>
+		<element name="LD67" ref="effect_ctrl_nonlin"><bounds x="693" y="385" width="46" height="12" /></element>
+		<element name="LD235" ref="effect_ctrl_mask"><bounds x="700" y="405" width="32" height="12" /></element>
 
 		<!-- Background -->
 
 		<!-- Foreground -->
 
 		<!-- Int Video -->
-		<element name="int_video_col_bkgd"  ref="int_video_col_bkgd" ><bounds x="321" y="578" width="52" height="12" /></element>
-		<element name="int_video_col_bar"   ref="int_video_col_bar"  ><bounds x="322" y="610" width="47" height="12" /></element>
-		<element name="int_video_grid"      ref="int_video_grid"     ><bounds x="331" y="643" width="28" height="12" /></element>
+		<element name="LD82" ref="int_video_col_bkgd"><bounds x="321" y="578" width="52" height="12" /></element>
+		<element name="LD81" ref="int_video_col_bar"><bounds x="322" y="610" width="47" height="12" /></element>
+		<element name="LD80" ref="int_video_grid"><bounds x="331" y="643" width="28" height="12" /></element>
 
 		<!-- Effect Transition -->
-		<element name="trans_rate100"  ref="digit"><bounds x="428" y="571"  width="26" height="38" /></element>
-		<element name="trans_rate10"   ref="digit"><bounds x="454" y="571"  width="26" height="38" /></element>
-		<element name="trans_rate1"    ref="digit"><bounds x="480" y="571"  width="26" height="38" /></element>
-		<element name="trans_rate_effect"   ref="trans_rate_effect"  ><bounds x="419" y="626" width="40" height="12" /></element>
-		<element name="trans_rate_dsk"      ref="trans_rate_dsk"     ><bounds x="482" y="625" width="23" height="12" /></element>
-		<element name="trans_rate_norm_rev" ref="trans_rate_norm_rev"><bounds x="531" y="609" width="56" height="12" /></element>
-		<element name="transition_effect"  ref="led"><bounds x="433" y="668"  width="9" height="9" /></element>
-		<element name="transition_dsk"     ref="led"><bounds x="490" y="668"  width="9" height="9" /></element>
-		<element name="transition_reverse" ref="led"><bounds x="555" y="668"  width="9" height="9" /></element>
-		<element name="freeze_field"   ref="led"><bounds x="433" y="740"  width="9" height="9" /></element>
-		<element name="freeze_frame"   ref="led"><bounds x="490" y="740"  width="9" height="9" /></element>
+		<element name="trans_rate_2" ref="digit"><bounds x="428" y="571"  width="26" height="38" /></element>
+		<element name="trans_rate_1" ref="digit"><bounds x="454" y="571"  width="26" height="38" /></element>
+		<element name="trans_rate_0" ref="digit"><bounds x="480" y="571"  width="26" height="38" /></element>
+		<element name="LD88" ref="trans_rate_effect"><bounds x="419" y="626" width="40" height="12" /></element>
+		<element name="LD86" ref="trans_rate_dsk"><bounds x="482" y="625" width="23" height="12" /></element>
+		<element name="LD90" ref="trans_rate_norm_rev"><bounds x="531" y="609" width="56" height="12" /></element>
+		<element name="LD85" ref="led"><!-- transition_effect --><bounds x="433" y="668"  width="9" height="9" /></element>
+		<element name="LD87" ref="led"><!-- transition_dsk --><bounds x="490" y="668"  width="9" height="9" /></element>
+		<element name="LD91" ref="led"><!-- transition_reverse --><bounds x="555" y="668"  width="9" height="9" /></element>
+		<element name="LD83" ref="led"><!-- freeze_field --><bounds x="433" y="740"  width="9" height="9" /></element>
+		<element name="LD84" ref="led"><!-- freeze_frame --><bounds x="490" y="740"  width="9" height="9" /></element>
 		<element name="transition_0"   ref="squared_led"><bounds x="623" y="598.197"  width="14" height="4.5" /></element>
 		<element name="transition_1"   ref="squared_led"><bounds x="623" y="604.966"  width="14" height="4.5" /></element>
 		<element name="transition_2"   ref="squared_led"><bounds x="623" y="611.735"  width="14" height="4.5" /></element>
@@ -268,17 +268,17 @@ license:CC0
 
 		<!-- Pattern Number -->
 		<element name="pattern_number_background" ref="rect"><bounds x="871" y="483"  width="108" height="41" /></element>
-		<element name="pattern_number1000" ref="digit"><bounds x="873" y="485"  width="26" height="37" /></element>
-		<element name="pattern_number100"  ref="digit"><bounds x="899" y="485"  width="26" height="37" /></element>
-		<element name="pattern_number10"   ref="digit"><bounds x="925" y="485"  width="26" height="37" /></element>
-		<element name="pattern_number1"    ref="digit"><bounds x="951" y="485"  width="26" height="37" /></element>
+		<element name="pattern_number_3" ref="digit"><bounds x="873" y="485"  width="26" height="37" /></element>
+		<element name="pattern_number_2" ref="digit"><bounds x="899" y="485"  width="26" height="37" /></element>
+		<element name="pattern_number_1" ref="digit"><bounds x="925" y="485"  width="26" height="37" /></element>
+		<element name="pattern_number_0" ref="digit"><bounds x="951" y="485"  width="26" height="37" /></element>
 
 		<!-- Mode -->
-		<element name="direct_pattern"   ref="led"><bounds x="822" y="574"  width="9" height="9" /></element>
-		<element name="mode_pattern"   ref="mode_pattern"  ><bounds x="801" y="621" width="47" height="12" /></element>
-		<element name="mode_trans"     ref="mode_trans"    ><bounds x="806" y="654" width="38" height="12" /></element>
-		<element name="mode_user_pgm"  ref="mode_user_pgm" ><bounds x="799" y="687" width="54" height="12" /></element>
-		<element name="mode_snap_shot" ref="mode_snap_shot"><bounds x="805" y="720" width="44" height="12" /></element>
+		<element name="LD96" ref="led"><!-- direct_pattern --><bounds x="822" y="574"  width="9" height="9" /></element>
+		<element name="LD95" ref="mode_pattern"><bounds x="801" y="621" width="47" height="12" /></element>
+		<element name="LD94" ref="mode_trans"><bounds x="806" y="654" width="38" height="12" /></element>
+		<element name="LD93" ref="mode_user_pgm"><bounds x="799" y="687" width="54" height="12" /></element>
+		<element name="LD92" ref="mode_snap_shot"><bounds x="805" y="720" width="44" height="12" /></element>
 
 		<!-- Pattern / Key Pad -->
 
