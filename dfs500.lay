@@ -98,6 +98,16 @@ license:CC0
 	<element name="effect_ctrl_nonlin"  defstate="1"><image file="effect_ctrl_nonlin.png"  state="1"/></element>
 	<element name="effect_ctrl_mask"    defstate="1"><image file="effect_ctrl_mask.png"  state="1"/></element>
 
+	<element name="single_color_button" defstate="0">
+		<rect state="1"><color red="1.0" green="0.8" blue="0.3" /></rect>
+	</element>
+
+	<element name="multi_color_button" defstate="0">
+		<rect state="1"><color red="1.0" green="0.3" blue="0.3" /></rect>
+		<rect state="2"><color red="1.0" green="0.8" blue="0.3" /></rect>
+		<rect state="3"><color red="1.0" green="1.0" blue="0.5" /></rect>
+	</element>
+
 	<!-- Background -->
 
 	<!-- Foreground -->
@@ -213,6 +223,7 @@ license:CC0
 		<element name="LD48" ref="dsk_fill_video"><bounds x="608" y="345" width="52" height="12" /></element>
 		<element name="LD47" ref="dsk_fill_mat"  ><bounds x="611" y="364" width="46" height="12" /></element>
 		<element name="LD46" ref="dsk_fill_none" ><bounds x="619" y="383" width="32" height="12" /></element>
+		<element name="LD45" ref="multi_color_button"><bounds x="537" y="478"  width="43" height="43" /></element>
 
 		<!-- Effect Control -->
 		<element name="LD65" ref="led"><!-- effect_ctrl_title --><bounds x="693" y="442"  width="9" height="9" /></element>
@@ -225,8 +236,18 @@ license:CC0
 		<element name="LD235" ref="effect_ctrl_mask"><bounds x="700" y="405" width="32" height="12" /></element>
 
 		<!-- Background -->
+		<element name="LD75" ref="multi_color_button"><!-- VTR A --><bounds x="79" y="560"  width="43" height="43" /></element>
+		<element name="LD76" ref="multi_color_button"><!-- VTR B --><bounds x="124" y="560"  width="43" height="43" /></element>
+		<element name="LD77" ref="multi_color_button"><!-- 3 --><bounds x="169" y="560"  width="43" height="43" /></element>
+		<element name="LD78" ref="multi_color_button"><!-- 4 --><bounds x="214" y="560"  width="43" height="43" /></element>
+		<element name="LD79" ref="multi_color_button"><!-- INT VIDEO --><bounds x="259" y="560"  width="43" height="43" /></element>
 
 		<!-- Foreground -->
+		<element name="LD70" ref="multi_color_button"><!-- VTR A --><bounds x="75" y="663"  width="43" height="43" /></element>
+		<element name="LD71" ref="multi_color_button"><!-- VTR B --><bounds x="120" y="663"  width="43" height="43" /></element>
+		<element name="LD72" ref="multi_color_button"><!-- 3 --><bounds x="165" y="663"  width="43" height="43" /></element>
+		<element name="LD73" ref="multi_color_button"><!-- 4 --><bounds x="210" y="663"  width="43" height="43" /></element>
+		<element name="LD74" ref="multi_color_button"><!-- INT VIDEO --><bounds x="255" y="663"  width="43" height="43" /></element>
 
 		<!-- Int Video -->
 		<element name="LD82" ref="int_video_col_bkgd"><bounds x="321" y="578" width="52" height="12" /></element>
@@ -245,6 +266,7 @@ license:CC0
 		<element name="LD91" ref="led"><!-- transition_reverse --><bounds x="555" y="668"  width="9" height="9" /></element>
 		<element name="LD83" ref="led"><!-- freeze_field --><bounds x="433" y="740"  width="9" height="9" /></element>
 		<element name="LD84" ref="led"><!-- freeze_frame --><bounds x="490" y="740"  width="9" height="9" /></element>
+		<element name="LD89" ref="single_color_button"><!-- TRANSITION AUTO TRANS --><bounds x="537" y="716"  width="43" height="43" /></element>
 		<element name="transition_0"   ref="squared_led"><bounds x="623" y="598.197"  width="14" height="4.5" /></element>
 		<element name="transition_1"   ref="squared_led"><bounds x="623" y="604.966"  width="14" height="4.5" /></element>
 		<element name="transition_2"   ref="squared_led"><bounds x="623" y="611.735"  width="14" height="4.5" /></element>
@@ -281,6 +303,18 @@ license:CC0
 		<element name="LD92" ref="mode_snap_shot"><bounds x="805" y="720" width="44" height="12" /></element>
 
 		<!-- Pattern / Key Pad -->
-
+		<element name="LD106" ref="single_color_button"><!-- KEYPAD 7 --><bounds x="866" y="558"  width="43" height="43" /></element>
+		<element name="LD107" ref="single_color_button"><!-- KEYPAD 8 --><bounds x="911" y="558"  width="43" height="43" /></element>
+		<element name="LD108" ref="single_color_button"><!-- KEYPAD 9 --><bounds x="956" y="558"  width="43" height="43" /></element>
+		<element name="LD109" ref="single_color_button"><!-- KEYPAD INS --><bounds x="1001" y="558"  width="43" height="43" /></element>
+		<element name="LD102" ref="single_color_button"><!-- KEYPAD 4 --><bounds x="866" y="603"  width="43" height="43" /></element>
+		<element name="LD103" ref="single_color_button"><!-- KEYPAD 5 --><bounds x="911" y="603"  width="43" height="43" /></element>
+		<element name="LD104" ref="single_color_button"><!-- KEYPAD 6 --><bounds x="956" y="603"  width="43" height="43" /></element>
+		<element name="LD105" ref="single_color_button"><!-- KEYPAD DEL --><bounds x="1001" y="603"  width="43" height="43" /></element>
+		<element name="LD98"  ref="single_color_button"><!-- KEYPAD 1 --><bounds x="866" y="648"  width="43" height="43" /></element>
+		<element name="LD99"  ref="single_color_button"><!-- KEYPAD 2 --><bounds x="911" y="648"  width="43" height="43" /></element>
+		<element name="LD100" ref="single_color_button"><!-- KEYPAD 3 --><bounds x="956" y="648"  width="43" height="43" /></element>
+		<element name="LD101" ref="single_color_button"><!-- KEYPAD RST --><bounds x="1001" y="648"  width="43" height="43" /></element>
+		<element name="LD97"  ref="single_color_button"><!-- KEYPAD 0 --><bounds x="866" y="693"  width="43" height="43" /></element>
 	</view>
 </mamelayout>
